@@ -22,25 +22,41 @@ const Footer = () => {
         icon={faTwitter}
         size="2x"
         color="#161619"
-        style={{ backgroundColor: "#918E9B", borderRadius: "5px" }}
+        style={{
+          backgroundColor: "#918E9B",
+          borderRadius: "5px",
+          padding: "3px",
+        }}
       />
       <FontAwesomeIcon
         icon={faFacebook}
         size="2x"
         color="#161619"
-        style={{ backgroundColor: "#918E9B", borderRadius: "5px" }}
+        style={{
+          backgroundColor: "#918E9B",
+          borderRadius: "5px",
+          padding: "3px",
+        }}
       />
       <FontAwesomeIcon
         icon={faInstagram}
         size="2x"
         color="#161619"
-        style={{ backgroundColor: "#918E9B", borderRadius: "5px" }}
+        style={{
+          backgroundColor: "#918E9B",
+          borderRadius: "5px",
+          padding: "3px",
+        }}
       />
       <FontAwesomeIcon
         icon={faGithub}
         size="2x"
         color="#161619"
-        style={{ backgroundColor: "#918E9B", borderRadius: "5px" }}
+        style={{
+          backgroundColor: "#918E9B",
+          borderRadius: "5px",
+          padding: "3px",
+        }}
       />
     </div>
   );
