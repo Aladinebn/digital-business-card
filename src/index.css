@@ -13,11 +13,9 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   position: relative;
-  border-radius: 100px;
 }
 
 .container {
-  border-radius: 15px;
   background-color: #1a1b21;
   width: 300px;
   margin-top: 110px;
