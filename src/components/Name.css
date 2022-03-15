@@ -28,14 +28,14 @@ h5 {
 }
 .contact-button button {
   font-size: 11px;
-  padding: 5px;
-  min-width: 8vw;
-  border-radius: 5px;
+  padding: 8px 20px;
+  width: 100%;
+  border-radius: 8px;
   cursor: pointer;
 }
 .contact-button {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 15px;
+  padding: 15px 20px;
 }
