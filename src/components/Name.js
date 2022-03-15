@@ -23,23 +23,28 @@ const Name = () => {
         </a>
       </div>
       <div className="contact-button">
-        <button>
-          <FontAwesomeIcon
-            icon={faEnvelope}
-            size="s"
-            style={{ paddingRight: "10px" }}
-          />
-          Email
-        </button>
-        <button style={{ backgroundColor: "#5093E2" }}>
-          <FontAwesomeIcon
-            icon={faLinkedin}
-            size="s"
-            color="black"
-            style={{ paddingRight: "10px" }}
-          />
-          Linkedin
-        </button>
+        <a href="mailto:ala.benna@gmail.com">
+          <button>
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="s"
+              color="black"
+              style={{ paddingRight: "10px" }}
+            />
+            Email
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/in/ala-eddine-benna-225a45125/">
+          <button style={{ backgroundColor: "#5093E2" }}>
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              size="s"
+              color="black"
+              style={{ paddingRight: "10px" }}
+            />
+            Linkedin
+          </button>
+        </a>
       </div>
     </div>
   );

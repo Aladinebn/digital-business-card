@@ -18,46 +18,54 @@ const Footer = () => {
         padding: "20px 50px 20px 50px",
       }}
     >
-      <FontAwesomeIcon
-        icon={faTwitter}
-        size="2x"
-        color="#161619"
-        style={{
-          backgroundColor: "#918E9B",
-          borderRadius: "5px",
-          padding: "3px",
-        }}
-      />
-      <FontAwesomeIcon
-        icon={faFacebook}
-        size="2x"
-        color="#161619"
-        style={{
-          backgroundColor: "#918E9B",
-          borderRadius: "5px",
-          padding: "3px",
-        }}
-      />
-      <FontAwesomeIcon
-        icon={faInstagram}
-        size="2x"
-        color="#161619"
-        style={{
-          backgroundColor: "#918E9B",
-          borderRadius: "5px",
-          padding: "3px",
-        }}
-      />
-      <FontAwesomeIcon
-        icon={faGithub}
-        size="2x"
-        color="#161619"
-        style={{
-          backgroundColor: "#918E9B",
-          borderRadius: "5px",
-          padding: "3px",
-        }}
-      />
+      <a href="https://twitter.com/ala_benna">
+        <FontAwesomeIcon
+          icon={faTwitter}
+          size="2x"
+          color="#161619"
+          style={{
+            backgroundColor: "#918E9B",
+            borderRadius: "5px",
+            padding: "3px",
+          }}
+        />
+      </a>
+      <a href="https://www.facebook.com/alaeddine.benna">
+        <FontAwesomeIcon
+          icon={faFacebook}
+          size="2x"
+          color="#161619"
+          style={{
+            backgroundColor: "#918E9B",
+            borderRadius: "5px",
+            padding: "3px",
+          }}
+        />
+      </a>
+      <a href="https://www.instagram.com/ala_dinebn/">
+        <FontAwesomeIcon
+          icon={faInstagram}
+          size="2x"
+          color="#161619"
+          style={{
+            backgroundColor: "#918E9B",
+            borderRadius: "5px",
+            padding: "3px",
+          }}
+        />
+      </a>
+      <a href="https://github.com/Aladinebn">
+        <FontAwesomeIcon
+          icon={faGithub}
+          size="2x"
+          color="#161619"
+          style={{
+            backgroundColor: "#918E9B",
+            borderRadius: "5px",
+            padding: "3px",
+          }}
+        />
+      </a>
     </div>
   );
 };
